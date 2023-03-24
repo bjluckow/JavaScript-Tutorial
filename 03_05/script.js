@@ -20,3 +20,6 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+console.log("The backpack object:", backpack);  // Automatically output to browser console
+

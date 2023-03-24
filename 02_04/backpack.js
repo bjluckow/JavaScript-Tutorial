@@ -26,3 +26,4 @@ const backpack = {
 };
 
 export default backpack;
+// Able to be imported

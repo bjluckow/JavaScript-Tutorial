@@ -22,3 +22,13 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+
+// Dot Notation
+console.log("The pocketNum value: ", backpack.pocketNum);
+console.log("Strap length L: ", backpack.strapLength.left);
+
+// Bracket Notation
+var query = "pocketNum";
+console.log("The pocketNum value:", backpack[query]);
+// Useful for non-standard variable names (e.g. generated)
+
